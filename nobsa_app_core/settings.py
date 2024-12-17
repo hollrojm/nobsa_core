@@ -76,9 +76,9 @@ WSGI_APPLICATION = 'nobsa_app_core.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'nombre_base_datos',
-        'USER': 'usuario',
-        'PASSWORD': 'contraseña',
+        'NAME': 'nobsapp_db',
+        'USER': 'root',
+        'PASSWORD': '80121042',
         'HOST': 'localhost',
         'PORT': '3306',
     }
