@@ -4,7 +4,10 @@ import { Link } from "react-router-dom";
 export const Navigation: React.FC = () => {
   return (
     <div>
-      <h1>Turismo App</h1>
+      <Link to="/merchants">
+        <h1>Turismo App</h1>
+      </Link>
+
       <nav>
         <ul>
           <li>
