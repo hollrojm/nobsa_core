@@ -1,11 +1,7 @@
-import React from 'react';
+import React from "react";
 
-interface MerchantFormPageProps {
-  // Si tienes props, agrégalos aquí
-}
+interface MerchantFormPageProps {}
 
 export const MerchantFormPage: React.FC<MerchantFormPageProps> = () => {
-  return (
-    <div>MerchantPage</div>
-  );
+  return <div>MerchantFormPage</div>;
 };

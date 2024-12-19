@@ -2,12 +2,14 @@
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 import { MerchantPage } from "./pages/MerchantsPage";
 import { MerchantFormPage } from "./pages/MerchantsFormPage";
+import { Navigation } from "./components/navigation";
 
 const App: React.FC = () => {
   // const [count, setCount] = useState<number>(0);
 
   return (
     <BrowserRouter>
+      <Navigation />
       <Routes>
         {/* Redirige automáticamente a la página de merchants */}
         <Route path="/" element={<Navigate to="/merchants" />} />
