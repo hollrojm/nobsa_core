@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    
     'corsheaders',
     'admin_panel',
     
@@ -132,6 +133,8 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 #cors authorization
 CORS_ALLOWED_ORIGINS = [
+    "http://localhost:5173"
     
 ]
 AUTH_USER_MODEL = 'admin_panel.User'
+
